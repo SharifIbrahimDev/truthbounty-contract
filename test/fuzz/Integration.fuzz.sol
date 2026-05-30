@@ -2,9 +2,9 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "../contracts/WeightedStaking.sol";
-import "../contracts/staking.sol";
-import "./mocks/MockReputationOracle.sol";
+import "../../contracts/WeightedStaking.sol";
+import "../../contracts/staking.sol";
+import "../mocks/MockReputationOracle.sol";
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 /**
